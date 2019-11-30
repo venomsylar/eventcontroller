@@ -1,22 +1,27 @@
 .App {
   text-align: center;
+  margin: 50px 0;
 }
 
-.App-logo {
-  height: 40vmin;
+.Buttons {
+  width: 200px;
+  max-width: 100%;
+  margin: 10px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Button {
+  width: 33%;
+  height: 50px;
+  display: inline-block;
 }
-
-.App-link {
-  color: #09d3ac;
+.Button.clearButton {
+  color: #ffffff;
+  background: #eb7d8f;
+}
+.Button.submitButton {
+  width: 100%;
+}
+.Button.backspaceButton {
+  color: #ffffff;
+  background: #707070;
 }
