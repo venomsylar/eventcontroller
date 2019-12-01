@@ -11,9 +11,9 @@ router.get('/', async (req, res) => {
 router.post('/', async (req, res) => {
   const { error } = validate(req.body); 
   if (error) return res.status(400).send(error.details[0].message);
-  const {code, sector, price, row, ticket_type, place, order, status, seller, date} = req.body;
+  const {code, sector, price, row, ticket_type, place, order, status, seller, date, checked} = req.body;
   let ticket = new Ticket({
-    code, sector, price, ticket_type, row, place, order, status, seller, date
+    code, sector, price, ticket_type, row, place, order, status, seller, date, checked
   });
   ticket = await ticket.save();
   
@@ -23,10 +23,10 @@ router.post('/', async (req, res) => {
 router.put('/:id', async (req, res) => {
   const { error } = validate(req.body); 
   if (error) return res.status(400).send(error.details[0].message);
-  const {code, sector, price, row, ticket_type, place, order, status, seller, date} = req.body;
+  const {code, sector, price, row, ticket_type, place, order, status, seller, date, checked} = req.body;
   const ticket = await Ticket.findByIdAndUpdate(req.params.id,
     {
-      code, sector, price, ticket_type, row, place, order, status, seller, date
+      code, sector, price, ticket_type, row, place, order, status, seller, date, checked
     }, { new: true });
 
   if (!ticket) return res.status(404).send('The customer with the given ID was not found.');

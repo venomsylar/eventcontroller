@@ -48,7 +48,12 @@ const Ticket = mongoose.model('Ticket', new mongoose.Schema({
     type: String,
     required: true,
     minlength: 5
-  }
+  },
+  checked: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
 }));
 
 function validateTicket(ticket) {
@@ -62,7 +67,8 @@ function validateTicket(ticket) {
     order: Joi.number().integer().min(0).required(),
     status: Joi.boolean(),
     seller: Joi.string().min(3),
-    date: Joi.string().min(5).required()
+    date: Joi.string().min(5).required(),
+    checked: Joi.boolean(),
   };
 
   return Joi.validate(ticket, schema);

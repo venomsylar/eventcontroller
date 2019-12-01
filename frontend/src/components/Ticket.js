@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Ticket = ({data}) => {
-	console.log(data);
 	return (
 			<div className="Ticket">
 				<table>

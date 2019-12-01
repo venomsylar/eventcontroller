@@ -50,15 +50,23 @@ class App extends Component {
     this.setState({codeMach: false});
   };
 
-  buttonSubmitHandler = () => {
+  buttonSubmitHandler = async() => {
     const tickets = [...this.state.tickets];
     let window = [...this.state.outputWindow];
     window = window.join('');
     const result = tickets.filter(ticket => {
       return ticket.code === parseInt(window);
     });
-    if(result.length) {
+    // TO:DO!!!
+    if(result.length && result[0].checked === false) {
       this.setState({codeMach: result[0]});
+      await axios.put(`http://localhost:4000/api/tickets/${result[0]._id}`, {
+        'checked' : true,
+      },{
+        crossdomain: true
+      });
+    } else if(result.length && result[0].checked === true) {
+      this.setState({codeMach: 'checked'});
     } else {
       this.setState({codeMach: false});
     }
