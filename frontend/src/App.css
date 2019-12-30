@@ -74,6 +74,10 @@
   color: #047000;
 }
 
+.warningInfo {
+  color: #ffc314;
+}
+
 .errorInfo {
   color: #ff000d;
 }

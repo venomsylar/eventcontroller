@@ -1,12 +1,12 @@
 import React from 'react';
 
-const InputWindow = ({value, result}) => {
+const InputWindow = ({value, checkedTicketData}) => {
 
 	const resultHandler = () => {
-		if(result && result !== 'checked') {
+		if(checkedTicketData && !checkedTicketData.checked) {
 			return <h3 className="successInfo">Code Exist!</h3>
-		} else if(result && result === 'checked') {
-			return <h3 className="successInfo">Code already has been checked!</h3>
+		} else if(checkedTicketData && checkedTicketData.checked) {
+			return <h3 className="warningInfo">Code has already checked!</h3>
 		} else {
 			return <h3 className="errorInfo">Code doesn't Exist!</h3>
 		}

@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bebab1f4-3d88-4448-9f3a-263c0396fc20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/axios-tickets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/containers/controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/tickets.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/tickets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/tickets.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/tickets.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Buttons/Buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Buttons/Buttons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/components/InputWindow.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/InputWindow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Ticket.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Ticket.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +23,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="95" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="12" selection-end-column="95" />
+            <state relative-caret-position="648">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/tickets.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2430">
+              <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -31,13 +51,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/tickets.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="1186">
+              <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.required()</find>
+      <find>customer</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ticket</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -45,18 +74,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/models/tickets.js" />
+        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/routes/tickets.js" />
+        <option value="$PROJECT_DIR$/models/tickets.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="y" value="281" />
-    <option name="width" value="1926" />
-    <option name="height" value="757" />
+    <option name="x" value="-7" />
+    <option name="width" value="1934" />
+    <option name="height" value="2127" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -64,7 +92,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,17 +113,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,20 +153,26 @@
       <workItem from="1575123563973" duration="6876000" />
       <workItem from="1575130885170" duration="2641000" />
       <workItem from="1575154310625" duration="1745000" />
-      <workItem from="1575228996132" duration="1545000" />
+      <workItem from="1575228996132" duration="1812000" />
+      <workItem from="1575403984996" duration="94000" />
+      <workItem from="1575916284920" duration="51000" />
+      <workItem from="1575916736475" duration="1261000" />
+      <workItem from="1576007644641" duration="50000" />
+      <workItem from="1576101352886" duration="12000" />
+      <workItem from="1577718894527" duration="3886000" />
+      <workItem from="1577729865125" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12861000" />
+    <option name="totallyTimeSpent" value="18485000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="3856" height="2136" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.17750533" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49880952" visible="true" weight="0.122470714" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.5005417" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" sideWeight="0.5011905" side_tool="true" weight="0.23500545" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -151,7 +186,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="RNConsole" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.40300107" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2618546" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -186,40 +221,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/13.16- Testing PUT and DELETE Routes/vidly/models/movie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/13.16- Testing PUT and DELETE Routes/vidly/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/13.16- Testing PUT and DELETE Routes/vidly/models/rental.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-385" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/13.16- Testing PUT and DELETE Routes/vidly/models/customer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/13.16- Testing PUT and DELETE Routes/vidly/models/genre.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/13.16- Testing PUT and DELETE Routes/vidly/routes/auth.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/13.16- Testing PUT and DELETE Routes/vidly/routes/customers.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/13.16- Testing PUT and DELETE Routes/vidly/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/13.16- Testing PUT and DELETE Routes/vidly/models/movie.js" />
+    <entry file="file://$USER_HOME$/Desktop/13.16- Testing PUT and DELETE Routes/vidly/models/user.js" />
+    <entry file="file://$USER_HOME$/Desktop/13.16- Testing PUT and DELETE Routes/vidly/models/rental.js" />
+    <entry file="file://$USER_HOME$/Desktop/13.16- Testing PUT and DELETE Routes/vidly/models/customer.js" />
+    <entry file="file://$USER_HOME$/Desktop/13.16- Testing PUT and DELETE Routes/vidly/models/genre.js" />
+    <entry file="file://$USER_HOME$/Desktop/13.16- Testing PUT and DELETE Routes/vidly/routes/auth.js" />
+    <entry file="file://$USER_HOME$/Desktop/13.16- Testing PUT and DELETE Routes/vidly/routes/customers.js" />
+    <entry file="file://$USER_HOME$/Desktop/13.16- Testing PUT and DELETE Routes/vidly/routes/users.js" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -227,24 +236,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/tickets.js">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="28" column="88" selection-start-line="28" selection-start-column="88" selection-end-line="28" selection-end-column="88" />
+        <state relative-caret-position="648">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/routes/tickets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="95" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="12" selection-end-column="95" />
+        <state relative-caret-position="2430">
+          <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/tickets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="1186">
+          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
         </state>
       </provider>
     </entry>

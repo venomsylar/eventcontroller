@@ -4,23 +4,19 @@ const mongoose = require('mongoose');
 const Ticket = mongoose.model('Ticket', new mongoose.Schema({
   code: {
     type: Number,
-    required: true,
     minlength: 0,
   },
   sector: {
     type: String,
-    required: true,
     minlength: 5,
   },
   price: {
     type: Number,
-    required: true,
     minlength: 2,
   },
   ticket_type: {
     type: String,
     minlength: 5,
-    required: true,
   },
   row: {
     type: String,
@@ -32,12 +28,10 @@ const Ticket = mongoose.model('Ticket', new mongoose.Schema({
   },
   order: {
     type: Number,
-    required: true,
     minlength: 0,
   },
   status: {
     type: Boolean,
-    required: true,
     default: false
   },
   seller: {
@@ -46,29 +40,29 @@ const Ticket = mongoose.model('Ticket', new mongoose.Schema({
   },
   date: {
     type: String,
-    required: true,
     minlength: 5
   },
   checked: {
     type: Boolean,
-    required: true,
     default: false
   },
 }));
 
 function validateTicket(ticket) {
   const schema = {
-    code: Joi.number().integer().min(0).required(),
-    sector: Joi.string().min(5).required(),
-    price: Joi.number().integer().min(2).required(),
-    ticket_type: Joi.string().min(5).required(),
+    _id: Joi.string().min(5),
+    __v: Joi.number(),
+    code: Joi.number().integer().min(0),
+    sector: Joi.string().min(5),
+    price: Joi.number().integer().min(2),
+    ticket_type: Joi.string().min(5),
     row: Joi.string().empty('').default(''),
     place: Joi.number().integer().min(1),
-    order: Joi.number().integer().min(0).required(),
+    order: Joi.number().integer().min(0),
     status: Joi.boolean(),
     seller: Joi.string().min(3),
-    date: Joi.string().min(5).required(),
-    checked: Joi.boolean(),
+    date: Joi.string().min(5),
+    checked: Joi.boolean().default(false),
   };
 
   return Joi.validate(ticket, schema);
